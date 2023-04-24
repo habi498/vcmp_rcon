@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+    <EditText
+        android:id="@+id/consoleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:completionHint=""
+        android:dropDownHeight="match_parent"
+
+        android:padding="20dp"
+        android:visibility="visible"
+        android:enabled="true"
+        />
+    <EditText
+        android:id="@+id/cmdEdittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:completionHint="Enter Command"
+        android:dropDownHeight="match_parent"
+        android:hint="enter command here"
+        android:padding="20dp"
+        android:visibility="visible"
+        android:maxLines="1"
+        android:inputType="text"
+        />
+    <Button
+        android:id="@+id/sendbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SendCommand" />
+
+
+</LinearLayout>
